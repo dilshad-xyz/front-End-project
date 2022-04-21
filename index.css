@@ -1,0 +1,331 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Caveat'!important;
+ overflow-x: hidden;
+}
+/*.......................Navigation Bar........................*/
+.nav-images{
+	background-image: url('Images/hero.png');
+	width: 100%!important;
+	height: 572px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding: 0px;
+    margin: 0px
+}
+li.nav-item a {
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+     font-family: 'Caveat';
+}
+li.nav-item a:hover{
+   color: #928576;
+}
+li.nav-item {
+    margin-left: 70px;
+
+}
+a.nav-link {
+    color: black;
+    font-size: 28px;
+    font-weight: 400;
+     font-family: 'Caveat';
+}
+a.nav-link:hover{
+    color: #928576;
+}
+a.navbar-brand {
+    font-size: 28px;
+    font-weight: 400;
+    color: #928576;
+     font-family: 'Caveat';
+}
+a.navbar-brand:hover{
+    color: #928576;
+}
+button.navbar-toggler {
+    background: #928576;
+}
+/*.........................................Header-content.......................................*/
+.content-section{
+  
+    display: flex;
+    justify-content:space-between;
+    width: 90%;
+    justify-content: flex-end;
+    margin-left: 10%;;
+    position: relative;
+    padding-top: 100px;
+   
+    
+}
+.content-section-left{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content-section-right h6, p{
+    color: white;
+    padding: 0px 10px;
+    
+}
+
+.content-section-right p{
+    
+}
+.content-section-right{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #928576;
+    opacity: 0.7;
+    justify-content: center;
+   
+}
+p.header-text {
+    font-size: 77px !important;
+    color: white;
+    width: 556px;
+    line-height: 100px;
+}
+.header-email{
+background-color: #928576;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+opacity: 0.7;
+width: 100%;
+}
+.header-email h4{
+    color: white;
+}
+h6.section-right {
+    font-size: 22px;
+}
+.section-right-p{
+    font-size: 12px !important;
+}
+
+
+
+
+
+
+/*...........................................Process................................................*/
+.card{
+    width:280px!important;
+}
+.card-body {
+    font-size: 15px;
+    color: black !important;
+}
+.containerr{
+	width: 65%;
+	margin:0 auto;
+}
+.process{
+	background: #D7E2DA;
+}
+
+.card-body{
+  background: #F0F1F1;
+
+}
+.process h1{
+	text-align: center;
+	padding-bottom: 30px!important; 
+     font-family: 'Caveat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+   line-height: 50px;
+}
+.card-title, .card-text{
+	text-align: center;
+}
+.card-body2,.card-body3, .card-body1  {
+   height: 284px;
+}
+img.card-img {
+    margin: 15px 0px;
+}
+/*.............................Feature....................*/
+.feature{
+ background: #F0F1F1;
+ padding:50px 0px;
+}
+.feature-content-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.feature-content-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.feature-content-right img {
+    width: 320px;
+    overflow: hidden;
+}
+
+/*..................conatct Us.............*/
+.contact-Us{
+	background-color: #E3D5C7;
+	padding: 100px 0px;
+}
+.containerrr{
+width: 50%;
+margin:0 auto;
+}
+a.btn-send.col-md-12.col-sm-12.col-xs-12:hover{
+    color:white;
+    border: 1px solid black;
+}
+input.form-control, .textarea#message {
+    border-radius: 25px;
+}
+textarea#message {
+    border-radius: 25px;
+}
+/*............................................Responsiveness...........................................*/
+/*............................................Logo...........................................*/
+@media screen and (max-width:1154px){
+a.navbar-brand {
+    font-size: 28px;
+    font-weight: 400;
+    color: #928576;
+    font-family: 'Caveat';
+    margin-top: -47px;
+}
+}
+@media screen and (max-width:991px){
+    a.navbar-brand {
+       
+        margin-top: 0px;
+    }
+    }
+/*............................................Header-content...........................................*/
+
+
+@media screen and (max-width:1163px){
+    p.header-text {
+        font-size: 60px !important;
+        color: white;
+        width: 535px;
+       
+    }
+}
+@media screen and (max-width:992px){
+    p.header-text {
+        font-size: 60px !important;
+        color: white;
+        width: 500px;
+      
+    }  
+    }
+    @media screen and (max-width:791px){
+       
+        p.header-text {
+            font-size: 37px !important;
+            color: white;
+            width: 281px;
+            
+        }
+    
+
+}
+@media screen and (max-width:575px){
+       
+    p.header-text {
+        font-size: 20px !important;
+        color: white;
+        width: auto;
+        
+    }
+    .content-section{
+
+        display: flex;
+        justify-content:space-between;
+        width: 90%;
+        justify-content: flex-end;
+        flex-direction: column;
+        position: relative;
+        padding-top: 10px; 
+    }
+    .header-email h4 {
+        font-size: 14px;
+    }
+    h6.section-right {
+        font-size: 14px;
+    }
+    p.section-right-p {
+        font-size: 10px !important;
+    }
+    .header-email {
+        padding-bottom: 10px;
+    }
+
+}
+/*............................................Process...........................................*/
+@media screen and (max-width:1400px){
+    .containerr {
+        width: 70%!important;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1150px){
+    .containerr {
+        width: 85%!important;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:991px){
+    .containerr {
+        width: 90%!important;
+        margin-left: 10px;
+    }
+    .card {
+        margin-bottom: 20px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:991px){
+    .card {
+        margin-bottom: 20px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:300px){
+    .card {
+
+            width:250px!important;
+        
+    }
+    .card-body1 {
+        height: 325px;
+    }
+}
+/*...........................................Contact Us...........................................*/
+@media screen and (max-width:571px){
+    .col-sm-6.mb-padding {
+        margin-top: 14px;
+    }
+}
+
